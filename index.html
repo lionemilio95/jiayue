@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jiayue's website</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&amp;#39');
+    </style>
+    <link rel="stylesheet" href="style.css">
+
+
+    <!--This is the navigation part-->
+    <nav>
+        <ul class="navul">
+            <img class = "me" src = "me_min.png">            
+            <li class = "rightnav" onclick="movetoprojects()"><a>Projects</a></li>
+            <li class = "rightnav" onclick="movetoskills()" ><a>Skills</a></li>
+            <li class = "rightnav" onclick="movetoedu()"><a>Education</a></li>
+            <li class = "rightnav" onclick="movetoaboutme()"><a>About me</a></li>
+        </ul>
+    </nav>
+
+</head>
+
+
+
+
+
+
+<body>
+    <!-- Here is the intro part -->
+    <div class="Intro">
+        <span class="Introtext">
+            Welcome to
+            <br>
+            <br>
+            Jiayue Chen's
+            <br>
+            <br>
+            Website
+        </span>
+    </div>
+
+    <!--The following is the About me part-->
+    <div class = "Aboutme">
+        <span class = "AboutmeTittle">
+            About me
+        </span>    
+
+
+        <span class="Aboutmetext">
+            Hello, visitor!
+            <br>
+            <br>
+            I am a master student attending in a Data Analytics program in USC. I achieved my Bachelor
+            degree at UCSD and my major was Mathematics/ Computer Science. Through my undergraduate study, 
+            I was extremely fascinated by software development such as website development and computer graphics.
+            <br>
+            <br>
+            Right now I am learning Machine Learning and Integrative Predictions with limited data. This Learning
+            process makes me get familiar with Python and its related packages such as pandas, numpy, etc. I am interested
+            in learning new programming languages and tools to develop my programming abilities as well as learning advanced
+            computer algorithms. 
+        </span>
+
+        <div class="imgboxaboutme">
+            <img class = "aboutmeimg" src="Tdots.png" ></img>
+        </div>
+        
+    </div>
+
+    <!--The following is the Education div-->
+    <div class = "Edu">
+        <span class="EduTittle">
+            Education
+        </span>
+        <span class="Edutext">
+            <h1>University of Southern California</h1>
+            <br>
+            Master of Science in Analytics
+            <br>
+            Overall GPA: 3.90
+            <br>
+            <br>
+            <br>
+            <h1>Universiy of California, San Diego</h1>
+            <br>
+            Bachelor of Science in Mathematics/Computer Science
+            <br>
+            <li>Overall GPA:3.36</li>
+            <li>Upper Division GPA: 3.71</li>
+        </span>
+        <img class="usclogo" src="usc_logo.png"></img>
+        <img class="ucsdlogo" src="ucsd_logo.png"></img>
+    </div>
+
+    <!-- The follow div is the Skills Div-->
+    <div class="Skills">
+        <span class = "SkillsTittle">
+            Skills
+        </span>
+        <p class = "Skillstext">
+            Programming Language:Java, C++, MATLAB, Unix, Java, Python
+            <br><br>
+            Language: Languages: English (proficient), Chinese (first language)
+            <br><br>
+            Web Developments: JavaScript, HTML5, CSS
+            <br><br>
+            Machine Learning: Python packages(Panas, numpy, KNN,SVM,etc.)
+
+        </p>
+        <div class="HTML">
+            <div class="tag-HTML">
+                <p>HTML/
+                    CSS</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-HTML">
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="HTML">
+            <div class="tag-C++">
+                <p>C++</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-CPP">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="HTML">
+            <div class="tag-OpenGL">
+                <p>OpenGL</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-OpenGL">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="HTML">
+            <div class="tag-ML">
+                <p>Machine Learning</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-ML">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="HTML">
+            <div class="tag-Analytics">
+                <p>Data Analytics</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-Analytics">
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class = "Projects">
+        <span class = "ProjectsTittle">
+            Projects
+        </span>
+
+       
+
+        <div class="slider">
+            <div class="arrows">
+                <div class = "arrow leftarrow">
+                </div>
+                <div class = "arrow rightarrow">
+                </div>
+            </div>
+
+            <div class = "wrapcontainer">
+                <div class="sliderwrap">
+                    <div class="projectclass project1">
+                        <div class="pj1tittle">
+                            <h1>
+                                Pokemon World
+                            </h1>
+                        </div>
+                        <ul class="pjuls pj1imgs">
+                            <li><img class = "pjimg" src = "projectimg/finalpj.png"></li>
+                            <li><img class = "pjimg" src = "projectimg/finalpjbc.png"></li>
+                            <li><img class = "pjimg" src = "projectimg/finalpjbs.png"></li>
+                            <li><img class = "pjimg" src = "projectimg/finalpjpt.png"></li>
+                        </ul>
+
+                        <div class="description pj2info">
+                            <p>
+                                This is a 3D animation program based on OpenGL and C++. My team had implemented toon shading, illumination effects, physical collision(using 
+                                bouding spheres). We also applied Diamond Algorithms and L-system to procedurally generate terrian and plants to create the virtual Pokemon World.
+                                The wave effects were realized by using bezier curves in motion.
+                            </p>
+                        </div> 
+                    </div>
+
+
+
+                    <div class="projectclass project2">
+                        <div class="pj2tittle">
+                            <h1>
+                                Android Robot Squad
+                            </h1>
+                        </div>
+                        <ul class="pjuls pj2imgs">
+                            <li><img class = "pjimg" src = "projectimg/hw3.png"></li>
+                            <li><img class = "pjimg" src = "projectimg/hw3bs.png"></li>
+                            <li><img class = "pjimg" src = "projectimg/hw3cull.png"></li>
+                        </ul>
+
+                        <div class="description pj2info">
+                            <p>
+                                This project is implemented by OpenGL and C++. I created a squad of moving Android robots (over 400) in one scene and add texture on them.
+                                In order to reduce the burden of GPU&CPU, I made a culling function that it would only render the robots inside the camera. I also created
+                                bounding sphere for them to detect if the robots are colliding each other.  
+                            </p>
+                        </div> 
+                    </div>
+
+
+                    <div class="projectclass project3">
+                        <div class="pj3tittle">
+                            <h1>
+                                Bezier Roller Coaster
+                            </h1>
+                        </div>
+                        <ul class="pjuls pj3imgs">
+                            <li><img class = "pjimg pj3img1" src = "projectimg/hw4.png"></li>
+                        </ul>
+
+                        <div class="description pj3info">
+                            <p>
+                                This project is implemented by OpenGL and C++. I created a track and a sphere to simulate the movement of a Roller Coaster. The track has
+                                followed the pattern of Bezier path (as shown in yellow handler) and the roller coaster moves fast when it goes down and move slow when it
+                                moves up along with the track. There is also a sky box which contains the track and the roller coaster. The sphere roller coaster has a 
+                                mirror texture which reflects the sky box.
+                            </p>
+                        </div> 
+                    </div>
+
+
+                    <div class="projectclass project3">
+                        <div class="pj3tittle">
+                            <h1>
+                                Prediction with limited trainning data
+                            </h1>
+                        </div>
+                        <ul class="pjuls pj3imgs">
+                            <li><img class = "pjimg pj4img1" src = "projectimg/MLSHAP.png"></li>
+                            <li><img class = "pjimg pj4img1" src = "projectimg/MLSHAPmean.png"></li>
+                            <li><img class = "pjimg pj4img1" src = "projectimg/MLLatex.png"></li>
+                            <li><img class = "pjimg pj4img1" src = "projectimg/MLResult.png"></li>
+                        </ul>
+
+                        <div class="description pj4info">
+                            <p>
+                                This is a kaggle playground project with Machine Learning. In this project we were given extremly limited data to train the learning model.
+                                We tried using XGBoosting, Random Forest Model, SVC model, SGD model, Logistic Regression and Neural Network and tuning these models
+                                to predict the test result. However, none of them works well. Then we tried the LB_Score, trying to improve the accuracy and it finally
+                                works.
+                            </p>
+                        </div> 
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <nav class="foot">
+        <ul class="footul">           
+            <li class = "footer">Contact: lionemilio1995@gmail.com</li>
+        </ul>
+    </nav>
+
+
+<script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.js"></script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.0/CSSRulePlugin.min.js"></script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+<script src ="js/mainjs.js"></script>
+
+
+</body>
+</html>

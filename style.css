@@ -1,0 +1,370 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+
+nav{
+    background:#181818;
+}
+
+
+.navul{
+    padding:1.1rem;
+    color:white;
+    opacity: 0.7;
+}
+
+.me{
+    width:5rem;
+    border-radius: 50%;
+    margin-right:3rem;
+}
+
+li{
+    margin:auto;
+    display:inline-block;
+    position:relative;
+    flex-direction: row;
+    font-size: 1.2rem;
+}
+
+.rightnav{
+    position: relative;
+    text-align:right;
+    float:right;
+    padding:2rem;
+    margin-left:2rem;
+}
+.rightnav a{
+    color:white;
+    text-decoration: none;
+}
+.rightnav a:hover{
+    color:grey;
+    cursor: pointer;
+}
+
+
+.Intro{
+    background-image: url("headernav.jpg");
+    background-size:50rem;
+    height:55rem;
+}
+
+
+
+.Introtext{
+    position: relative;
+    display:inline-block;
+    Color:white;
+    font-size:80px;
+    padding:30px;
+    margin:150px;
+    text-shadow:4px 4px 20px white; 
+    bottom:0px;
+}
+
+
+.Aboutme{
+    background:#252627;
+    padding-top:0.625rem;
+    max-height:56.25rem;
+}
+
+
+.imgboxaboutme{ 
+    display:inline-block;
+    max-width:40rem;
+    max-height:40rem;
+    margin-left:65%;
+    transform: translateY(-20rem) ;
+}
+
+.aboutmeimg{
+    max-width:100%;
+    max-height:100%;
+}
+
+.AboutmeTittle{
+    position: relative;
+    display:flex;
+    Color:white;
+    font-size:120px;
+    padding:20px;
+    opacity: 0.45;
+}
+
+.Aboutmetext{
+    position:relative;
+    color:white;
+    background:#1d2022f8;
+    font-size:20px;
+    display:block;
+    box-sizing: border-box;
+    padding:20px;
+
+    max-height:100%;
+    
+    margin:100px 300px 0px 300px;
+    border: 2px solid #1d2022f8;
+    border-radius: 20px;
+    box-shadow: black -5px 5px 10px;
+    bottom:170px;
+    right:20px; 
+    z-index:1;
+
+}
+
+.Edu{
+    background:#252627;
+    padding-top:10px;
+    height:800px;
+}
+.EduTittle{
+    position: relative;
+    display:flex;
+    Color:white;
+    font-size:120px;
+    padding:20px;
+    margin-right:20px;
+    opacity: 0.45;
+    float:right;
+    top:75px;
+}
+.Edutext{
+    position:relative;
+    display:inline-block;
+    color:rgb(240, 232, 232);
+    font-size:20px;
+    padding: 20px;
+    margin-left : 50px;
+    transform:translateY(105%)
+}
+
+.usclogo{
+    width:13rem;
+    position:relative;
+    display:flex;
+    left:80%;
+    bottom:2%;
+}
+
+.ucsdlogo{
+    width:9rem;
+    position:relative;
+    display:flex;
+    left:81.8%;
+    top:0;
+}
+
+
+
+
+.Skills{
+    background:#252627;
+    padding-top:10px;
+    height:875px;
+    text-align: center;
+}
+
+.SkillsTittle{
+    position: relative;
+    display:inline-block;
+    Color:white;
+    font-size:120px;
+    padding:20px;
+    margin-right:20px;
+    opacity: 0.45;
+}
+
+.Skillstext{
+    margin-top:-2%;
+    height:100px;
+    padding:20px;
+    color:white;
+    font-size:20px;
+    margin-bottom: 5%;
+}
+
+.HTML{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:40px;
+}
+
+div[class^='tag-']{
+    clip-path: polygon(75% 0%,100% 50%, 75% 100%, 0% 100%, 0% 50%, 0% 0%);
+    width:160px;
+    height:60px;
+    background-color: #1785A7;
+    margin-right:30px;
+}
+
+div[class^='tag-'] p{
+    color:white;
+    text-align: left;
+    padding-left: 10px;
+    font-size:20px;
+    padding-top:10px;
+}
+
+.progressbar{
+    position:relative;
+    width:600px;
+    height:20px;
+    border:2px solid #66fcd6;
+    border-radius: 20px;
+    margin-top: 7px;
+    top:10px;
+}
+
+div[class^='bar-']{
+    position:absolute;
+    background: #66fcD6;
+    height:12.5px;
+    border-radius: 20px;
+    margin:2.7px;
+    width:calc(0-6px);
+}
+
+
+
+.Projects{
+    background:#252627;
+    padding-top:10px;
+    height:65rem;
+    text-align: center;
+}
+
+
+.ProjectsTittle{
+    position: relative;
+    display:flex;
+    Color:white;
+    font-size:120px;
+    padding:20px;
+    margin-right:20px;
+    opacity: 0.45;
+    top:75px;
+}
+
+.Projectstext{
+    position:relative;
+    height:100px;
+    padding:20px;
+    color:white;
+    font-size:20px;
+    top:200px;
+    float:center;
+}
+
+
+
+
+/* This is for sliding projects*/
+
+
+
+.projectclass {
+    width: 70rem;
+    height: auto;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-right: 50rem;;
+    overflow-wrap: break-word;
+    background:#1d2022f8;
+    border: 2px solid #1d2022f8;
+    border-radius: 20px;
+    box-shadow: black -5px 5px 10px;
+  }
+
+  .wrapcontainer{
+      position: relative;
+      display: flex;
+      top:3rem;
+      left:25rem;
+  }
+
+ .sliderwrap {
+    position: absolute;
+    display:flex;
+  }
+
+
+.arrows{
+    display:inline;
+    position: relative;
+}
+
+.arrow {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    border-top: 0.25rem solid #fff;
+    border-left: 0.25rem solid #fff;
+    transition: all .1s ease-in-out;
+    text-decoration: none;
+    color: transparent;
+  }
+  
+  .arrow:hover {
+    border-color: #5CDB95;
+    border-width: 0.6rem;
+  }
+
+
+.leftarrow{
+    position: relative;
+    transform:translate(-45rem,22rem) rotate(-45deg);
+    z-index:1;
+}
+
+.rightarrow{
+    position: relative;
+    transform:translate(45rem,22rem) rotate(135deg);
+    z-index:1;
+}
+
+
+
+
+
+/* This is the projects descriptions */
+.pjuls{
+    display:inline-block;
+    flex-direction: row;
+}
+
+
+.pjimg{
+    width:30rem;
+    height:17rem;
+}
+
+.pj3img1{
+    width: 60rem;;
+    height:30rem;
+}
+
+.foot{
+    padding:1.5rem;
+}
+
+
+.footer{
+    position:flex;
+    color:white;
+    float: right;
+    padding:auto;
+}
