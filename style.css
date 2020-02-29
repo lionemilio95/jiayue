@@ -270,7 +270,7 @@ div[class^='bar-']{
 .slider{
     display:relative;
     height:80%;
-    width:100%;
+    width:auto;
 }
 
 
@@ -291,8 +291,10 @@ div[class^='bar-']{
 
   .wrapcontainer{
       position: absolute;
-      display: flex;
-      left:12%;
+      display: inline-block;
+      width:auto;
+      left:50%;
+      margin-left:-35rem;
       top:10%;
   }
 
